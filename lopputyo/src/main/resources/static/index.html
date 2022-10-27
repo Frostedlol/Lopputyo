@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>Lisää oppilas</h3>
+
+    <form action="/addstudents" method="post">
+        <input type="text" name="nimi" id="nimi">
+        <button type="submit">Lähetä</button>
+    </form>
+
+    <h3>Syötä Kurssin tiedot</h3>
+
+    <form action="/addcourses" method="post">
+
+        <label for="Opettaja">Opettaja:</label>
+        <input type="text" name="Opettaja" id="Opettaja"><br><br>
+
+        <label for="Luokka">Luokka:</label>
+        <input type="text" name="Luokka" id="Luokka"><br><br>
+
+        <label for="Kurssi">Kurssi:</label>
+        <input type="text" name="Kurssi" id="Kurssi"><br><br>
+
+        <button type="submit">Lähetä</button>
+
+    </form>
+
+
+
+</body>
+</html>
